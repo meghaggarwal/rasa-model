@@ -1,0 +1,66 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.48454880714416504
+    }
+  },
+  {
+    "text": "I want to get the newsletter",
+    "intent": "subscribe",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4546920359134674
+    }
+  },
+  {
+    "text": "Can you send me the newsletter?",
+    "intent": "subscribe",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4146340489387512
+    }
+  },
+  {
+    "text": "Can you sign me up for the newsletter?",
+    "intent": "subscribe",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5027613639831543
+    }
+  },
+  {
+    "text": "My email is example@example.com",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7164031863212585
+    }
+  },
+  {
+    "text": "random@example.com",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5561803579330444
+    }
+  },
+  {
+    "text": "Please send it to anything@example.com",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4315163195133209
+    }
+  },
+  {
+    "text": "Email is something@example.com",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9562401175498962
+    }
+  }
+]
