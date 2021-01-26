@@ -1,1 +1,8 @@
-# None of the test stories failed - all good!
+version: "2.0"
+stories:
+- story: test for greet and subscribe (C:\Users\Megha\AppData\Local\Temp\tmpcz7iz011\370a767ed04149a387dcbc886cb1091e_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: subscribe  # predicted: nlu_fallback: I want to subscribe to the newsletter. My email is example@email.com
+  - action: utter_subscribed  # predicted: newsletter_form

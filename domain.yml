@@ -2,6 +2,7 @@ version: "2.0"
 
 intents:
   - greet
+  - subscribe
   - goodbye
   - affirm
   - deny
@@ -32,11 +33,18 @@ responses:
   utter_ask_email:
   - text: "What is your email address?"
 
+  utter_subscribed:
+    - text: "Check your inbox at {email} in order to finish subscribing to the newsletter!"
+    
+
+forms:
+  newsletter_form:
+    email:
+      - type: from_text
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 
-actions:
-  - newsletter_form
+

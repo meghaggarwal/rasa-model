@@ -172,8 +172,8 @@ services:
     restart: always
     image: "rasa/nginx:${RASA_X_VERSION}"
     ports:
-      - "81:8080"
-      - "444:8443"
+      - "80:8080"
+      - "443:8443"
     volumes:
       - ./certs:/opt/bitnami/certs
       - ./terms:/opt/bitnami/nginx/conf/bitnami/terms
